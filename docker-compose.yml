@@ -5,7 +5,7 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: jupyter-local
+    container_name: jupyter-gpu-local
     ports:
       - 8888:8888
     volumes:
